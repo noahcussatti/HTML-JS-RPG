@@ -1,0 +1,39 @@
+<div ng-init="monsterCheckDead(0)" class="background" style="background: url({{players[0].currentLocation[0].image}});">
+  <div class="container-fluid">
+    <button class="btn btn-default f2btn1" ui-sref="forest3" ng-click="setLocation(3)" ng-show="!showMonster">Walk Across Bridge</button>
+    <button ng-click="setLocation(1)" ui-sref="start" class="btn btn-default backButton">Go Back</button>
+    <!-- Monster Image -->
+    <img src="{{ monsters[0].image }}" ng-show="showMonster" class="monsterImage animated bounce infinite">
+    <!-- Fight Button -->
+    <button class="btn btn-danger fightButton1" ng-show="showMonster" ng-click="monsterEncounter(0); attackAnimation = true; monsterCheckDead(0)">Fight Monster!</button>
+    <!-- Battle Text -->
+    <div id="battleText2" class="monsterAttack animated" ng-show="showMonster" ng-class="{'pulse': attackAnimation}"></div>
+    <div id="battleText3" class="playerAttack animated" ng-show="showMonster" ng-class="{'pulse': attackAnimation}"></div>
+    <div id="battleText4" ng-show="showMonster" class="monsterHealth1"></div>
+
+    <div>
+      <img ng-click="showEquipment = !showEquipment;" src="https://infestation.gamepedia.com/media/infestation.gamepedia.com/1/1a/Adventure_Backpack.png"
+        class="pouchImage animated infinite" ng-class "{tada: animatedPouch}">
+      <div class="backpackEquipment col-sm-12 ">
+        <div ng-show="showEquipment" ng-repeat="i in players[0].backpack">
+          <div class="backpackBackground col-sm-3">
+            {{ i.name }}
+            <img src="{{i.image}}" class="backpackImage">
+            <button class="btn btn-success" ng-click="equipItem($index); healPlayer($index)">Use</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 HUD">
+      <h3 class="HUDHealth">Health: {{ players[0].currentHealth }}</h3>
+      <h4 class="HUDCurrent">Helmet: {{ players[0].currentHelmet.name }}</h4>
+      <h5 class="HUDPower">Power: {{ players[0].currentHelmet.power }}</h5>
+      <h4 class="HUDCurrent">Chestplate: {{ players[0].currentChest.name }}</h4>
+      <h5 class="HUDPower">Power: {{ players[0].currentChest.power }}</h5>
+      <h4 class="HUDCurrent">Wristplate: {{ players[0].currentWrist.name }}</h4>
+      <h5 class="HUDPower">Power: {{ players[0].currentWrist.power }}</h5>
+      <h4 class="HUDCurrent">Weapon: {{ players[0].currentWeapon.name }}</h4>
+      <h5 class="HUDPower">Power: {{ players[0].currentWeapon.power }}</h5>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,531 @@
+[
+  {
+    "id": 1,
+    "name": "Goblin",
+    "health": 50,
+    "power": 10,
+    "image": "https://orig05.deviantart.net/b56f/f/2013/227/a/6/goblin_transparent_by_st0ven-d6i8yhd.png",
+    "currentHelmet": {
+      "id": 2,
+      "name": "Chainmail Helm",
+      "power": 10,
+      "type": "helmet",
+      "image": "https://i.imgur.com/G3rbn1J.png"
+    },
+    "currentChest": {
+      "id": 4,
+      "name": "Studed Leather Armor",
+      "power": 10,
+      "type": "chest",
+      "image": "https://i.imgur.com/QcXVP0b.png"
+    },
+    "currentWrist": {
+      "id": 8,
+      "name": "Leather Bracers",
+      "power": 5,
+      "type": "wrists",
+      "image": "https://i.imgur.com/iAdsqt0.png"
+    },
+    "currentWeapon": {
+      "id": 13,
+      "name": "Wooden Sword",
+      "power": 7,
+      "type": "weapon",
+      "image": "https://i.imgur.com/B6Ul0mf.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ork",
+    "health": 100,
+    "power": 10,
+    "image": "https://i.imgur.com/PYGVUix.png",
+    "currentHelmet": {
+      "id": 2,
+      "name": "Chainmail Helm",
+      "power": 10,
+      "type": "helmet",
+      "image": "https://i.imgur.com/G3rbn1J.png"
+    },
+    "currentChest": {
+      "id": 6,
+      "name": "Chainmail Armor",
+      "power": 20,
+      "type": "chest",
+      "image": "https://i.imgur.com/uuDawKP.png"
+    },
+    "currentWrist": {
+      "id": 6,
+      "name": "Iron Bracers",
+      "power": 6,
+      "type": "wrist"
+    },
+    "currentWeapon": {
+      "id": 10,
+      "name": "Morning Star",
+      "power": 20,
+      "type": "weapon",
+      "image": "https://i.imgur.com/47MXsHr.png"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bear",
+    "health": 75,
+    "power": 15,
+    "image": "https://i.imgur.com/9BpFkIX.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 4,
+    "name": "Cactus Patch Kid",
+    "health": 50,
+    "power": 20,
+    "image": "https://i.imgur.com/qKEAK4k.jpg",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 5,
+    "name": "Desert Yeti",
+    "health": 100,
+    "power": 10,
+    "image": "https://i.imgur.com/O9AH2iE.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 6,
+    "name": "Evil Hotdog",
+    "health": 200,
+    "power": 20,
+    "image": "https://i.imgur.com/vRWj8Yt.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 7,
+    "name": "Evil Knight",
+    "health": 150,
+    "power": 30,
+    "image": "https://i.imgur.com/UlqCtjh.png",
+    "currentHelmet": {
+      "id": 3,
+      "name": "Plate Helm",
+      "power": 20,
+      "type": "helmet",
+      "image": "https://i.imgur.com/MSLjTpx.png"
+    },
+    "currentChest": {
+      "id": 7,
+      "name": "Plate Armor",
+      "power": 25,
+      "type": "chest",
+      "image": "https://i.imgur.com/ilIaLPc.png"
+    },
+    "currentWrist": {
+      "id": 6,
+      "name": "Iron Bracers",
+      "power": 6,
+      "type": "wrist"
+    },
+    "currentWeapon": {
+      "id": 14,
+      "name": "Long Sword",
+      "power": 30,
+      "type": "weapon",
+      "image": "https://i.imgur.com/qFl4976.png"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Dark Mage",
+    "health": 100,
+    "power": 25,
+    "image": "https://i.imgur.com/i7gpSkr.png",
+    "currentHelmet": null,
+    "currentChest": {
+      "id": 5,
+      "name": "Quilted Armor",
+      "power": 15,
+      "type": "chest",
+      "image": "https://i.imgur.com/9oadoje.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 20,
+      "name": "Fire Wand",
+      "power": 35,
+      "type": "weapon",
+      "image": "https://i.imgur.com/Hx5cg5S.png"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Frozen Banshee",
+    "health": 150,
+    "power": 20,
+    "image": "https://i.imgur.com/7z1Ovo2.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 21,
+      "name": "Ice Wand",
+      "power": 40,
+      "type": "weapon",
+      "image": "https://i.imgur.com/Do8tVyQ.png"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Frost Troll",
+    "health": 100,
+    "power": 12,
+    "image": "https://i.imgur.com/p3esL4H.jpg",
+    "currentHelmet": {
+      "id": 2,
+      "name": "Chainmail Helm",
+      "power": 10,
+      "type": "helmet",
+      "image": "https://i.imgur.com/G3rbn1J.png"
+    },
+    "currentChest": {
+      "id": 6,
+      "name": "Chainmail Armor",
+      "power": 20,
+      "type": "chest",
+      "image": "https://i.imgur.com/uuDawKP.png"
+    },
+    "currentWrist": {
+      "id": 6,
+      "name": "Iron Bracers",
+      "power": 6,
+      "type": "wrist"
+    },
+    "currentWeapon": null
+  },
+  {
+    "id": 11,
+    "name": "Giant Snake",
+    "health": 200,
+    "power": 10,
+    "image": "https://i.imgur.com/eRN11KR.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 12,
+    "name": "Lava Dragon",
+    "health": 300,
+    "power": 30,
+    "image": "https://i.imgur.com/LROimXT.jpg",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 18,
+      "name": "Dragon Dagger",
+      "power": 50,
+      "type": "weapon",
+      "image": "https://i.imgur.com/ubfPArM.png"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Magma Snake",
+    "health": 150,
+    "power": 10,
+    "image": "https://i.imgur.com/vY9qsKA.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 14,
+    "name": "Muad' Dib",
+    "health": 75,
+    "power": 15,
+    "image": "https://i.imgur.com/XwCpGCs.png",
+    "currentHelmet": null,
+    "currentChest": {
+      "id": 26,
+      "name": "Medium Potion",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 17,
+      "name": "Twin Daggers",
+      "power": 25,
+      "type": "weapon",
+      "image": "https://i.imgur.com/1BCiVsW.png"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Mummy",
+    "health": 200,
+    "power": 5,
+    "image": "https://i.imgur.com/DbxfIiD.png",
+    "currentHelmet": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    },
+    "currentChest": {
+      "id": 26,
+      "name": "Medium Potion",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Old Man",
+    "health": 30,
+    "power": 1,
+    "image": "https://i.imgur.com/Ue8lKY1.png",
+    "currentHelmet": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    },
+    "currentChest": {
+      "id": 26,
+      "name": "Medium Potion",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Rock Golem",
+    "health": 200,
+    "power": 10,
+    "image": "https://i.imgur.com/pBKoMd6.png",
+    "currentHelmet": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    },
+    "currentChest": {
+      "id": 26,
+      "name": "Medium Potion",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 11,
+      "name": "War Hammer",
+      "power": 40,
+      "type": "weapon",
+      "image": "https://i.imgur.com/nNjnfMu.png"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Sand Worm",
+    "health": 100,
+    "power": 15,
+    "image": "https://i.imgur.com/PSJ2dEv.png",
+    "currentHelmet": {
+      "id": 27,
+      "name": "Large Potion",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    },
+    "currentChest": {
+      "id": 26,
+      "name": "Medium Potion",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 19,
+    "name": "Ice Golem",
+    "health": 300,
+    "power": 10,
+    "image": "https://i.imgur.com/1Aj1njR.png",
+    "currentHelmet": {
+      "id": 3,
+      "name": "Plate Helm",
+      "power": 20,
+      "type": "helmet",
+      "image": "https://i.imgur.com/MSLjTpx.png"
+    },
+    "currentChest": {
+      "id": 7,
+      "name": "Plate Armor",
+      "power": 25,
+      "type": "chest",
+      "image": "https://i.imgur.com/ilIaLPc.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 9,
+      "name": "Maul",
+      "power": 60,
+      "type": "weapon",
+      "image": "https://i.imgur.com/hXAEbM1.png"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Noah after this Week",
+    "health": 200,
+    "power": 20,
+    "image": "https://i.imgur.com/C7pmDXw.png",
+    "currentHelmet": {
+      "id": 27,
+      "name": "Dank Meme Sauce",
+      "power": 200,
+      "type": "heal",
+      "image": "https://i.imgur.com/DdBNUSi.png"
+    },
+    "currentChest": {
+      "id": 26,
+      "name": "Meme Sauce",
+      "power": 100,
+      "type": "heal",
+      "image": "https://i.imgur.com/qDkCEFe.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 21,
+    "name": "Toxic Cloud",
+    "health": 100,
+    "power": 10,
+    "image": "https://i.imgur.com/l0hl017.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 22,
+    "name": "Vicious Cloud Dog",
+    "health": 75,
+    "power": 15,
+    "image": "https://i.imgur.com/tgvAYnF.jpg",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 23,
+    "name": "Imp",
+    "health": 250,
+    "power": 15,
+    "image": "https://i.imgur.com/iCaGpRE.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 19,
+      "name": "Explosive Staff",
+      "power": 60,
+      "type": "weapon",
+      "image": "https://i.imgur.com/u0JVNz2.png"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Wolf",
+    "health": 55,
+    "power": 5,
+    "image": "https://i.imgur.com/AvbsjzM.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  },
+  {
+    "id": 25,
+    "name": "King of Redwood",
+    "health": 400,
+    "power": 30,
+    "image": "https://i.imgur.com/vX3muJn.png",
+    "currentHelmet": {
+      "id": 3,
+      "name": "Plate Helm",
+      "power": 20,
+      "type": "helmet",
+      "image": "https://i.imgur.com/MSLjTpx.png"
+    },
+    "currentChest": {
+      "id": 7,
+      "name": "Plate Armor",
+      "power": 25,
+      "type": "chest",
+      "image": "https://i.imgur.com/ilIaLPc.png"
+    },
+    "currentWrist": null,
+    "currentWeapon": {
+      "id": 15,
+      "name": "EPIC Sword",
+      "power": 70,
+      "type": "weapon",
+      "image": "https://i.imgur.com/poj0jfC.png"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Hooded Figure",
+    "health": 500,
+    "power": 50,
+    "image": "https://i.imgur.com/QeYrLVx.png",
+    "currentHelmet": null,
+    "currentChest": null,
+    "currentWrist": null,
+    "currentWeapon": null
+  }
+]

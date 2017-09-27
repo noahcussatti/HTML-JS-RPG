@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "Link",
+    "maxHealth": 100,
+    "currentHealth": 100,
+    "power": 10,
+    "backpack": [
+      {
+        "id": 25,
+        "name": "Small Potion",
+        "power": 50,
+        "type": "heal",
+        "image": "https://i.imgur.com/EmmAL5V.png"
+      },
+      {
+        "id": 25,
+        "name": "Small Potion",
+        "power": 50,
+        "type": "heal",
+        "image": "https://i.imgur.com/EmmAL5V.png"
+      },
+      {
+        "id": 13,
+        "name": "Wooden Sword",
+        "power": 7,
+        "type": "weapon",
+        "image": "https://i.imgur.com/B6Ul0mf.jpg"
+      },
+      {
+        "id": 15,
+        "name": "EPIC Sword",
+        "power": 70,
+        "type": "weapon",
+        "image": "https://i.imgur.com/poj0jfC.png"
+      }
+    ],
+    "currentLocation": [
+      {
+        "id": 1,
+        "name": "Forest 1",
+        "image": "https://i.imgur.com/T1gdOrD.jpg"
+      }
+    ],
+    "currentHelmet": {
+      "id": 101,
+      "name": "None",
+      "power": 0,
+      "type": "helmet"
+    },
+    "currentChest": {
+      "id": 102,
+      "name": "Shirt",
+      "power": 0,
+      "type": "chest"
+    },
+    "currentWrist": {
+      "id": 103,
+      "name": "None",
+      "power": 0,
+      "type": "wrist"
+    },
+    "currentWeapon": {
+      "id": 104,
+      "name": "Fists",
+      "power": 0,
+      "type": "weapon"
+    }
+  }
+]

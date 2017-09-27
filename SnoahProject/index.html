@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="rpgApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Snoah Project</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <!-- Bootstrap CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <!-- MD BootStrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Angular CDN 1.5.7 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+  <!-- Angular UI Router CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+</head>
+<body>
+  <div ui-view></div>
+
+  <!-- Module -->
+  <script type="text/javascript" src="./app.js"></script>
+  <!-- Controllers -->
+  <script type="text/javascript" src="./controllers/gameController.js"></script>
+  <script type="text/javascript" src="./controllers/playerController.js"></script>
+  <!-- Services -->
+  <script type="text/javascript" src="./services/gameService.js"></script>
+</body>
+</html>

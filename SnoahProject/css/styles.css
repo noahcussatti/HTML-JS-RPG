@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body, html {
+  height: 100%;
+}
+
+.HUD {
+  background-color: rgba(253, 253, 253, 0.75);
+  border-radius: 6px;
+  position: fixed;
+  bottom: 20px;
+  font-weight: 600;
+}
+
+.HUDHealth {
+  color: red;
+  font-weight: 600;
+}
+
+.HUDCurrent {
+  color: #000087;
+  font-weight: 500;
+}
+
+.HUDPower {
+  color: #00550A;
+  font-weight: 400;
+}
+
+.background, .background2 {
+  height: 768px;
+  width: 1366px;
+}
+
+
+/* Move Buttons */
+
+.backButton {
+  position: fixed;
+  bottom: 20px;
+  left: 635px;
+  font-size: 18px;
+  
+}
+
+.f1btn1 {
+  position: absolute;
+  right: 550px;
+  top: 500px;
+}
+
+.f2btn1 {
+  position: absolute;
+  left: 550px;
+  top: 300px;
+}
+
+.f3btn1 {
+  position: absolute;
+  right: 510px;
+  top: 400px;
+}
+
+.f4btn1 {
+  position: absolute;
+  right: 210px;
+  top: 400px;
+}
+
+.f4btn2 {
+  position: absolute;
+  left: 150px;
+  top: 360px;
+}
+
+.f4toMbtn1 {
+  position: absolute;
+  right: 500px;
+  top: 525px;
+}
+
+.d3btn1 {
+  position: absolute;
+  right: 800px;
+  top: 600px;
+}
+
+.d5btn1 {
+  position: absolute;
+  right: 850px;
+  top: 500px
+}
+
+.oa4btn1 {
+  position: absolute;
+  right: 580px;
+  top: 250px
+}
+
+.m2btn1 {
+  position: absolute;
+  right: 800px;
+  bottom: 300px;
+}
+
+.m3btn1 {
+  position: absolute;
+  right: 200px;
+  top: 250px;
+}
+
+.r1btn1 {
+  position: absolute;
+  right: 600px;
+  top: 250px;
+}
+
+.ca1btn1 {
+  position: absolute;
+  right: 650px;
+  top: 400px;
+}
+
+.ca3btn1 {
+  position: absolute;
+  right: 250px;
+  top: 400px;
+}
+
+.sn2btn1 {
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+}
+
+.m3Sbtn1 {
+  position: absolute;
+  right: 450px;
+  bottom: 300px;
+}
+
+
+
+.pouchImage {
+  position: fixed;
+  height: 93px;
+  width: 156px;
+  bottom: 20px;
+  right: 100px;
+}
+
+
+/* Monsters */
+
+.monsterImage {
+  position: fixed;
+  height: 300px;
+  width: 200px;
+  bottom: 200px;
+  right: 475px;
+}
+
+.monsterImageMuad {
+  position: fixed;
+  bottom: 0;
+  height: 300px;
+  width: 175px;
+  left: 450px;
+}
+
+.monsterImage2 {
+  position: fixed;
+  height: 300px;
+  width: 200px;
+  bottom: 100px;
+  right: 475px;
+}
+
+.monsterImageDesertYeti {
+  position: fixed;
+  height: 300px;
+  width: 250px;
+  bottom: 150px;
+  right: 700px;
+}
+
+.monsterImageMummy {
+  position: fixed;
+  height: 200px;
+  width: 165px;
+  bottom: 50px;
+  right: 750px;
+}
+
+.monsterImageRockGolem {
+  position: fixed;
+  height: 200px;
+  width: 165px;
+  bottom: 250px;
+  right: 800px;
+}
+
+.monsterImageSnake {
+  position: fixed;
+  height: 500px;
+  width: 300px;
+  bottom: 100px;
+  right: 475px;
+}
+
+.monsterImageBanshee {
+  position: fixed;
+  height: 200px;
+  width: 350px;
+  bottom: 300px;
+  right: 550px;
+}
+
+.monsterImageMage {
+  position: fixed;
+  height: 300px;
+  width: 200px;
+  bottom: 250px;
+  right: 550px;
+}
+
+.monsterImageLavaDragon {
+  position: fixed;
+  height: 300px;
+  width: 400px;
+  bottom: 300px;
+  left: 350px;
+}
+/* Fight Buttons */
+
+.fightButton1 {
+  position: fixed;
+  bottom: 300px;
+  right: 325px;
+}
+
+.fightButtonM2 {
+  position: fixed;
+  bottom: 310px;
+  right: 650px;
+}
+
+.monsterHealth1 {
+  position: fixed;
+  bottom: 165px;
+  right: 457px;
+  color: white;
+  background-color: rgba(130, 2, 2, 0.73);
+  border-radius: 6px;
+  padding: 7px;
+}
+
+.backpackEquipment {
+  height: 200px;
+  margin-top: 2%;
+  margin-right: 4%;
+}
+
+.backpackEquipButton {
+  float: right;
+}
+
+.backpackBackground {
+  color: white;
+  background-color: rgba(34, 18, 0, 0.89);
+  padding: 10px;
+}
+
+.monsterAttack {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  left: 400px;
+  top: 100px;
+  background-color: rgba(112, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.playerAttack {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  left: 400px;
+  top: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.backpackImage {
+  height: 40px;
+  width: 40px;
+}
+
+/* Chests */
+
+.caveChest {
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  bottom: 100px;
+  right: 500px;
+}
+
+.secretPotion {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 200px;
+  right: 680px;
+}
+
+.youWon {
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
+
+.potion {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: 100px;
+  right: 50px;
+}
+
+.potion2 {
+    position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: 300px;
+  left: 50px;
+}

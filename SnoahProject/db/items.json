@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "Leather Cap",
+    "power": 5,
+    "type": "helmet",
+    "image": "https://i.imgur.com/tFG1KOM.png"
+  },
+  {
+    "id": 2,
+    "name": "Chainmail Helm",
+    "power": 10,
+    "type": "helmet",
+    "image": "https://i.imgur.com/G3rbn1J.png"
+  },
+  {
+    "id": 3,
+    "name": "Plate Helm",
+    "power": 20,
+    "type": "helmet",
+    "image": "https://i.imgur.com/MSLjTpx.png"
+  },
+  {
+    "id": 4,
+    "name": "Studed Leather Armor",
+    "power": 10,
+    "type": "chest",
+    "image": "https://i.imgur.com/QcXVP0b.png"
+  },
+  {
+    "id": 5,
+    "name": "Quilted Armor",
+    "power": 15,
+    "type": "chest",
+    "image": "https://i.imgur.com/9oadoje.png"
+  },
+  {
+    "id": 6,
+    "name": "Chainmail Armor",
+    "power": 20,
+    "type": "chest",
+    "image": "https://i.imgur.com/uuDawKP.png"
+  },
+  {
+    "id": 7,
+    "name": "Plate Armor",
+    "power": 25,
+    "type": "chest",
+    "image": "https://i.imgur.com/ilIaLPc.png"
+  },
+  {
+    "id": 8,
+    "name": "Leather Bracers",
+    "power": 5,
+    "type": "wrist",
+    "image": "https://i.imgur.com/iAdsqt0.png"
+  },
+  {
+    "id": 9,
+    "name": "Maul",
+    "power": 60,
+    "type": "weapon",
+    "image": "https://i.imgur.com/hXAEbM1.png"
+  },
+  {
+    "id": 10,
+    "name": "Morning Star",
+    "power": 20,
+    "type": "weapon",
+    "image": "https://i.imgur.com/47MXsHr.png"
+  },
+  {
+    "id": 11,
+    "name": "War Hammer",
+    "power": 40,
+    "type": "weapon",
+    "image": "https://i.imgur.com/nNjnfMu.png"
+  },
+  {
+    "id": 12,
+    "name": "Rusty Sword",
+    "power": 10,
+    "type": "weapon",
+    "image": "https://i.imgur.com/LARZT7I.png"
+  },
+  {
+    "id": 13,
+    "name": "Wooden Sword",
+    "power": 7,
+    "type": "weapon",
+    "image": "https://i.imgur.com/B6Ul0mf.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Long Sword",
+    "power": 30,
+    "type": "weapon",
+    "image": "https://i.imgur.com/qFl4976.png"
+  },
+  {
+    "id": 15,
+    "name": "EPIC Sword",
+    "power": 70,
+    "type": "weapon",
+    "image": "https://i.imgur.com/poj0jfC.png"
+  },
+  {
+    "id": 16,
+    "name": "Rusty Daggers",
+    "power": 10,
+    "type": "weapon",
+    "image": "https://i.imgur.com/50DTMnJ.png"
+  },
+  {
+    "id": 17,
+    "name": "Twin Daggers",
+    "power": 25,
+    "type": "weapon",
+    "image": "https://i.imgur.com/1BCiVsW.png"
+  },
+  {
+    "id": 18,
+    "name": "Dragon Dagger",
+    "power": 50,
+    "type": "weapon",
+    "image": "https://i.imgur.com/kwPiOCK.png"
+  },
+  {
+    "id": 19,
+    "name": "Explosive Staff",
+    "power": 60,
+    "type": "weapon",
+    "image": "https://i.imgur.com/u0JVNz2.png"
+  },
+  {
+    "id": 20,
+    "name": "Fire Wand",
+    "power": 35,
+    "type": "weapon",
+    "image": "https://i.imgur.com/Hx5cg5S.png"
+  },
+  {
+    "id": 21,
+    "name": "Ice Wand",
+    "power": 40,
+    "type": "weapon",
+    "image": "https://i.imgur.com/Do8tVyQ.png"
+  },
+  {
+    "id": 22,
+    "name": "Golden Ball",
+    "power": 0,
+    "type": "other",
+    "image": "https://i.imgur.com/RvJZNk9.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Golden Paddle",
+    "power": 0,
+    "type": "other",
+    "image": "https://i.imgur.com/feoJp0d.png"
+  },
+  {
+    "id": 24,
+    "name": "Golden Sweat Bands",
+    "power": 0,
+    "type": "other",
+    "image": "https://i.imgur.com/x28nL5x.png"
+  },
+  {
+    "id": 25,
+    "name": "Small Potion",
+    "power": 50,
+    "type": "heal",
+    "image": "https://i.imgur.com/EmmAL5V.png"
+  },
+  {
+    "id": 26,
+    "name": "Medium Potion",
+    "power": 100,
+    "type": "heal",
+    "image": "https://i.imgur.com/qDkCEFe.png"
+  },
+  {
+    "id": 27,
+    "name": "Large Potion",
+    "power": 200,
+    "type": "heal",
+    "image": "https://i.imgur.com/DdBNUSi.png"
+  }
+]
